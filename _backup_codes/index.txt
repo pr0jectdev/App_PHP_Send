@@ -1,0 +1,63 @@
+
+
+    <center><span class="textobranco pictureframe">Number of files in folder: <?php echo sizeof($filesInFolderCounter); ?></span></center>
+echo "<td id='tdDownload'><button class='send1' id=" . $files->control . " onclick='downloadFile(this.id)'>download</button></td>";
+
+
+
+<!-- INFO: Date, time, Name, Size, Type, Ext -->
+          <br>
+          <div class="z" id="x_resultado"></div>
+          <br><br>
+
+          <!-- Uploaded, Total -->
+          <br>
+          <div class="textoSizeProgress" id="SizeProgress"></div>
+          <br>
+
+          <br><br>
+          <!-- Status % -->
+          <div class="progress" id="z">
+            <div class="progress-bar" id="z"></div>
+          </div>
+
+          <!-- Uploaded, Total -->
+          <p>teste um</p>
+          <div id="uploadStatus" class="z"></div>
+
+
+
+
+if (count($varListFiles) > 0) {
+      echo "<table class='lista'>";
+      echo "
+      <thead><tr>
+      <th style='width:3%' id='thID'>ID
+      <th style='width:8%' id='thDate'>Date
+      <th style='width:6%' id='thTime'>Time
+      <th style='width:10%' id='thSize'>Size (bytes)
+      <th style='width:10%' id='thType'>Type
+      <th style='width:8%' id='thExistsFile'>Exists
+      <th style='width:40%' id='thNameFile'>Name
+      <th style='width:9%' id='thIp'>IP
+      <th style='width:3%' id='thDownload'>download
+      <th style='width:3%' id='thDelete'>delete
+      </thead><tbody>";
+
+      foreach($varListFiles as $files){
+        echo "<tr><td id='tdID'>" . $files->control . "</td>";
+        echo "<td id='tdDate'>" . $files->date . "</td>";
+        echo "<td id='tdTime'>" . $files->time . "</td>";
+        echo "<td id='tdSize'>" . $files->size . "</td>";
+        echo "<td id='tdType'> " . $files->type . "</td>";
+        echo "<td id='tdExistsFile'>" . $files->exists . "</td>";
+        echo "<td id='tdNameFile'>" . $files->name . "</td>";
+        echo "<td id='tdIp'> " . $files->ip . "</td>";
+        echo "<td id='tdDownload'><button class='send1' id=" . $files->control . " onclick='reqpass2(this.id)'>download</button></td>";
+        echo "<td id='tdDelete'><button class='send1' id=" . $files->control . " onclick='deleteRegistry(this.id)'>delete</button></td>";
+        echo "<td></td></tr>";
+      }
+      echo "</tbody></table>";
+    } else {
+      echo "0 results";
+    }

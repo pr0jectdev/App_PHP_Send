@@ -1,0 +1,471 @@
+
+body {
+  
+  background-color:  #060e13;
+  background-image: url("../assets/img7.jpg");
+  color: #000000; 
+  font-family: 'Trebuchet MS', sans-serif;
+  font-size: 12px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  /* This is what makes the background image rescale based on its container's size */
+  background-size: cover;
+  height: 100%;
+  margin-top: 10px;
+  margin-left: 0px;
+ 
+}
+
+table.Tabela_1 {
+  /* width: 1200px; */
+  font-size: 12px;
+  /* color: green; */
+ 
+}
+
+table.Tabela_1 td#tdSEND {
+  vertical-align: top;
+  /* background-color: #E5E8E8; */
+  padding-left: 15px;
+  padding-right: 15px;
+  /* color: green; */
+}
+
+table.Tabela_1 td#tdUPLOAD {
+  vertical-align: top;
+  /* background-color: orange; */
+  padding-left: 30px;
+  padding-right: 30px;
+  /* color: green; */
+}
+
+table.Envia {
+  background: none;
+  width: 80%;
+  /* width: 200px; */
+}
+table.Envia tr {
+  /*width: 100px; */
+  /* text-align: left; */
+}  
+
+/* Not use full width on DIV */
+.pictureframe {
+  display: inline-block;
+}
+
+.marginbottom {
+  margin-bottom: 5px;
+}
+
+.textoverde {
+	color: #00FF00;
+	background-color: #000000;
+}
+
+.textoverdeenvia {
+	color: #00FF00;
+	background-color: #000000;
+  font-size: 12px;
+}
+
+.textobranco {
+  color: #FFFFFF;
+  background-color: #000000;
+}
+
+.textodados {
+	color: #FFFF00;
+	background-color: #000000;
+}
+
+
+/* textoerro {
+	color: #EA4335;
+	background-color: #000000;
+} */
+
+textoRes {
+	color: #00FF00;
+	background-color: #000000;
+}
+
+textoStatus {
+	font-size: 18px;
+	color: #FFFF00;
+	background-color: #000000;
+}
+
+div.textoSizeProgress {
+	color: #00FF00;
+	/* 	background-color: #000000; */
+	line-height: 16px;
+	/* width: 200px; */
+}
+
+
+textarea {
+       resize: none;
+       border-radius: 7px;
+       /* background-color: #DCDCDC; */
+       background-color: #000000;
+       color: #00FF00;
+       padding: 15px;
+       /* border: 1px solid #000000; */
+       border: none;
+       /* font-weight: 400; */
+       /* font-size: 16px; */
+       font-family: 'Trebuchet MS', sans-serif;
+  	   font-size: 12px;
+       opacity:0.6;
+       
+    }
+    
+input.passone {
+       border-radius: 7px;
+       background-color: #000000;
+       color: #00FF00;
+       padding: 7px;
+       border: none;
+       font-family: 'Trebuchet MS', sans-serif;
+  	   font-size: 12px;
+       opacity:0.6;
+       width: 50px;
+       
+    }
+
+.send1 {
+	-moz-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #fff6af;
+	box-shadow:inset 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	padding:5px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.send1:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+.send1:active {
+	position:relative;
+	top:1px;
+}
+
+.del1 {
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	background-color:#ffec64;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	padding:5px 7px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.del1:hover {
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	background-color:#ffab23;
+}
+.del1:active {
+	position:relative;
+	top:1px;
+}
+
+.bUpload {
+	box-shadow:inset 0px 1px 0px 0px #54a3f7;
+	background:linear-gradient(to bottom, #007dc1 5%, #0061a7 100%);
+	background-color:#007dc1;
+	border:1px solid #124d77;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Trebuchet MS', sans-serif;
+	font-size:12px;
+	padding:6px 8px;
+	text-decoration:none;
+}
+.bUpload:hover {
+	background:linear-gradient(to bottom, #0061a7 5%, #007dc1 100%);
+	background-color:#0061a7;
+}
+.bUpload:active {
+	position:relative;
+	top:1px;
+}
+
+
+
+/*@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,600);*/
+/*
+*, *:before, *:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+*/
+
+/*
+body {
+  background: #105469;
+  font-family: 'Open Sans', sans-serif;
+}
+*/
+
+table.lista {
+  background: #DCDCDC;
+  border-radius: 0.25em;
+  border-collapse: collapse;
+  margin: 1em;
+  opacity:0.9;
+}
+table.lista th {
+  border-bottom: 1px solid #364043;
+  color: black;
+  /* font-size: 0.85em; */
+  font-weight: 400;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+table.lista thead th#thID {
+  text-align: center;
+  /* color: green; */
+}
+
+table.lista thead th#thDate {
+  text-align: center;
+  /* color: green; */
+}
+
+table.lista thead th#thTime {
+  text-align: center;
+  /* color: green; */
+}
+
+table.lista thead th#thAbout {
+  text-align: right;
+  /* color: green; */
+}
+
+table.lista thead th#thComment {
+  text-align: left;
+  /* color: green; */
+}
+table.lista tbody td#tdID {
+  text-align: center;
+  /* color: red; */
+}
+
+/* TABLE UPLOAD */
+table.lista thead th#thSize {
+  text-align: center;
+  /* color: green; */
+}
+
+table.lista thead th#thType {
+  text-align: center;
+  /* color: green; */
+}
+
+table.lista thead th#thNameFile {
+  text-align: center;
+  /* color: green; */
+}
+table.lista thead th#thExistsFile {
+  text-align: center;
+  /* color: green; */
+}
+table.lista thead th#thIp {
+  text-align: center;
+  /* color: green; */
+}
+table.lista thead th#thDelete {
+  text-align: center;
+  /* color: green; */
+}
+table.lista thead th#thDownload {
+  text-align: center;
+  /* color: green; */
+}
+table.lista thead th#thDownloadsCounter {
+  text-align: center;
+  /* color: green; */
+}
+/* TABLE UPLOAD */
+
+
+table.lista tbody td#tdNoResult {
+  text-align: center;
+}
+table.lista tbody td#tdDate {
+  text-align: center;
+  /* color: red; */
+  /* background-color: orange; */
+}
+table.lista tbody td#tdTime {
+  text-align: center;
+  /* color: red; */
+  /* background-color: white; */
+}
+table.lista tbody td#tdAbout {
+  text-align: right;
+  /* color: red; */
+  /* background-color: orange; */
+}
+table.lista tbody td#tdComment {
+  text-align: left;
+  /* color: red; */
+  /* background-color: white; */
+}
+/* TABLE UPLOAD */
+table.lista tbody td#tdSize {
+  text-align: center;
+  /* color: red; */
+  /* background-color: orange; */
+}
+table.lista tbody td#tdType {
+  text-align: center;
+  /* color: red; */
+  /* background-color: white; */
+}
+table.lista tbody td#tdNameFile {
+  text-align: center;
+  /* color: red; */
+  /* background-color: white; */
+}
+table.lista tbody td#tdExistsFile {
+  text-align: center;
+  /* color: red; */
+  /* background-color: orange; */
+}
+table.lista tbody td#tdIp {
+  text-align: center;
+  /* color: red; */
+  /* background-color: white; */
+}
+table.lista tbody td#tdDownload {
+  text-align: center;
+  /* color: red; */
+}
+table.lista tbody td#tdDownloadsCounter {
+  text-align: center;
+  /* color: red; */
+}
+table.lista tbody td#tdDelete {
+  text-align: center;
+  /* color: red; */
+}
+/* TABLE UPLOAD */
+
+
+table.lista tr:nth-child(even) {
+  background: #D3D3D3;
+}
+
+table.lista td {
+  color: #00008B;
+  font-weight: 400;
+  /* padding: 0.65em 1em; */
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+
+/*
+.disabled table.lista td {
+  color: #4F5F64;
+}
+*/
+
+table.lista tbody tr {
+  transition: background 0.25s ease;
+}
+/*
+ table.lista tbody tr:hover {
+  background: #00008B;
+  color: #00FF00;
+}
+*/
+
+a:link {
+    text-decoration: none;
+    color: #4169E1;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #4169E1;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #00008B;
+}
+
+a:active {
+    text-decoration: none;
+    color: #4169E1;
+}
+
+div.wrapper {
+	min-height: 100%;
+  	/* Equal to height of footer */
+  	/* But also accounting for potential margin-bottom of last child */
+  	margin-bottom: -40px;
+}
+
+div.push {
+    height: 40px;
+}
+
+div.footer {
+	display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    height: 40px;
+    padding-left: 5px;    
+	font-size: 12px;
+    background-color: #000000;
+    color: black;
+    opacity:0.8;
+}
+
+/*
+wrap="hard"
+
+hard : The input text is wrapped within the text area. (The text submitted to the server contains line breaks.)
+soft : The input text is wrapped within the text area. (The text submitted to the server doesn't contain line breaks.)
+off : The input text is not wrapped.
+*/
